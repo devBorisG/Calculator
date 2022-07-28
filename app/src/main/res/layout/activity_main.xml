@@ -15,7 +15,29 @@
         tools:layout_editor_absoluteY="0dp">
 
         <Button
-            android:id="@+id/button29"
+            android:id="@+id/numero0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/guideline20"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/numero1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -37,7 +59,7 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button26"
+            android:id="@+id/numero2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -59,19 +81,22 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button28"
+            android:id="@+id/numero3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
             android:hapticFeedbackEnabled="false"
-            android:text="+"
-            android:textColor="#FF9800"
+            android:text="3"
+            android:textColor="#000000"
             android:textSize="34sp"
+            android:textStyle="bold"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toTopOf="@+id/guideline20"
-            app:layout_constraintEnd_toEndOf="@id/guideline5"
-            app:layout_constraintStart_toEndOf="@id/guideline4"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
             app:layout_constraintTop_toBottomOf="@id/guideline18"
+            app:layout_constraintVertical_bias="0.0"
             app:layout_goneMarginBottom="4dp"
             app:layout_goneMarginEnd="4dp"
             app:layout_goneMarginLeft="4dp"
@@ -80,7 +105,7 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button25"
+            android:id="@+id/numero4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -102,51 +127,7 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button31"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="6"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline18"
-            app:layout_constraintEnd_toStartOf="@+id/guideline4"
-            app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toBottomOf="@id/guideline17"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button32"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="-"
-            android:textColor="#FF9800"
-            android:textSize="36sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline18"
-            app:layout_constraintEnd_toEndOf="@id/guideline5"
-            app:layout_constraintStart_toEndOf="@id/guideline4"
-            app:layout_constraintTop_toBottomOf="@id/guideline17"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button30"
+            android:id="@+id/numero5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -168,7 +149,29 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/numero6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline18"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@id/guideline17"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/numero7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -190,7 +193,29 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button23"
+            android:id="@+id/numero8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline17"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toEndOf="@id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline6"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/numero9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
@@ -212,13 +237,77 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/punto"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="."
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@id/guideline20"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/signo_mas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="+"
+            android:textColor="#EF6C00"
+            android:textSize="34sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline20"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toEndOf="@id/guideline4"
+            app:layout_constraintTop_toBottomOf="@id/guideline18"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/signo_menos"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="-"
+            android:textColor="#EF6C00"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline18"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toEndOf="@id/guideline4"
+            app:layout_constraintTop_toBottomOf="@id/guideline17"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/signo_mult"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
             android:hapticFeedbackEnabled="false"
             android:text="X"
-            android:textColor="#FF9800"
+            android:textColor="#EF6C00"
             android:textSize="34sp"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toTopOf="@+id/guideline17"
@@ -233,26 +322,106 @@
             app:layout_goneMarginTop="4dp" />
 
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/signo_division"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:backgroundTint="#FFFFFF"
             android:hapticFeedbackEnabled="false"
-            android:text="8"
-            android:textColor="#000000"
+            android:text="/"
+            android:textColor="#EF6C00"
             android:textSize="34sp"
-            android:textStyle="bold"
             app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline17"
-            app:layout_constraintEnd_toStartOf="@+id/guideline3"
-            app:layout_constraintStart_toEndOf="@id/guideline21"
-            app:layout_constraintTop_toTopOf="@+id/guideline6"
+            app:layout_constraintBottom_toTopOf="@+id/guideline6"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toTopOf="@+id/guideline16"
+            app:layout_constraintVertical_bias="0.0"
             app:layout_goneMarginBottom="4dp"
             app:layout_goneMarginEnd="4dp"
             app:layout_goneMarginLeft="4dp"
             app:layout_goneMarginRight="4dp"
             app:layout_goneMarginStart="4dp"
             app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/signo_igual"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#EF6C00"
+            android:hapticFeedbackEnabled="false"
+            android:text="="
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:cornerRadius="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintTop_toTopOf="@+id/guideline20"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/botonhistorial"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:paddingLeft="12dp"
+            android:paddingTop="2dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="2dp"
+            android:text="Historial"
+            android:textColor="#DD2C00"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline6"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/guideline16"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <Button
+            android:id="@+id/limpiar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:hapticFeedbackEnabled="false"
+            android:text="AC"
+            android:textColor="#DD2C00"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline6"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@id/guideline3"
+            app:layout_constraintTop_toTopOf="@+id/guideline16"
+            app:layout_goneMarginBottom="4dp"
+            app:layout_goneMarginEnd="4dp"
+            app:layout_goneMarginLeft="4dp"
+            app:layout_goneMarginRight="4dp"
+            app:layout_goneMarginStart="4dp"
+            app:layout_goneMarginTop="4dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.0" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline3"
@@ -267,6 +436,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="1.0" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline6"
@@ -303,181 +479,6 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.8574" />
 
-        <Button
-            android:id="@+id/button33"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="0"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guideline3"
-            app:layout_constraintStart_toStartOf="@id/guideline2"
-            app:layout_constraintTop_toTopOf="@+id/guideline20"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button34"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="."
-            android:textColor="#000000"
-            android:textSize="34sp"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guideline4"
-            app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toBottomOf="@id/guideline20"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button35"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FF9800"
-            android:hapticFeedbackEnabled="false"
-            android:text="="
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@id/guideline5"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/guideline4"
-            app:layout_constraintTop_toTopOf="@+id/guideline20"
-            app:layout_constraintVertical_bias="0.0"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button23"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="AC"
-            android:textColor="#FF9800"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline6"
-            app:layout_constraintEnd_toStartOf="@+id/guideline4"
-            app:layout_constraintStart_toStartOf="@id/guideline3"
-            app:layout_constraintTop_toTopOf="@+id/guideline16"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button24"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="/"
-            android:textColor="#FF9800"
-            android:textSize="34sp"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline6"
-            app:layout_constraintEnd_toEndOf="@id/guideline5"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/guideline4"
-            app:layout_constraintTop_toTopOf="@+id/guideline16"
-            app:layout_constraintVertical_bias="0.0"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:paddingLeft="12dp"
-            android:paddingTop="2dp"
-            android:paddingRight="12dp"
-            android:paddingBottom="2dp"
-            android:text="Historial"
-            android:textColor="#FF9800"
-            android:textSize="11sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline6"
-            app:layout_constraintEnd_toStartOf="@+id/guideline21"
-            app:layout_constraintStart_toStartOf="@id/guideline2"
-            app:layout_constraintTop_toTopOf="@+id/guideline16"
-            app:layout_constraintVertical_bias="0.0"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <Button
-            android:id="@+id/button27"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:backgroundTint="#FFFFFF"
-            android:hapticFeedbackEnabled="false"
-            android:text="3"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline20"
-            app:layout_constraintEnd_toStartOf="@+id/guideline4"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toBottomOf="@id/guideline18"
-            app:layout_constraintVertical_bias="0.0"
-            app:layout_goneMarginBottom="4dp"
-            app:layout_goneMarginEnd="4dp"
-            app:layout_goneMarginLeft="4dp"
-            app:layout_goneMarginRight="4dp"
-            app:layout_goneMarginStart="4dp"
-            app:layout_goneMarginTop="4dp" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="1.0" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.0" />
-
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline21"
             android:layout_width="wrap_content"
@@ -485,6 +486,22 @@
             android:backgroundTint="#FFFFFF"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.25" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline16"
+            app:layout_constraintEnd_toStartOf="@+id/guideline5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
