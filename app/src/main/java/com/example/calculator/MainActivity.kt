@@ -26,45 +26,56 @@ class MainActivity : AppCompatActivity() {
         binding.numero7.setOnClickListener{numeroPresionado("7",binding)}
         binding.numero8.setOnClickListener{numeroPresionado("8",binding)}
         binding.numero9.setOnClickListener{numeroPresionado("9",binding)}
+        binding.punto.setOnClickListener { numeroPresionado(".",binding) }
 
         binding.signoMas.setOnClickListener { operacionPresionada(sumar, binding) }
         binding.signoMenos.setOnClickListener { operacionPresionada(resta, binding) }
         binding.signoMult.setOnClickListener { operacionPresionada(mult, binding) }
         binding.signoDivision.setOnClickListener { operacionPresionada(divid, binding) }
 
-        binding.limpiar.setOnClickListener {
-            num1 = 0.0
-            num2 = 0.0
-            binding.textView2.text = "0"
-            operacion = sinOperacion
-        }
+        binding.limpiar.setOnClickListener { limpiarCalculadora(binding) }
 
-        binding.signoIgual.setOnClickListener {
-            val resultado = when(operacion){
-                sumar -> num1+num2
-                resta -> num1-num2
-                mult -> num1*num2
-                divid -> num1/num2
-                else -> 0
-            }
-            binding.textView2.text = resultado.toString()
-        }
+        binding.signoIgual.setOnClickListener { totalOperacion(binding) }
     }
 
     @SuppressLint("SetTextI18n")
     private  fun numeroPresionado(digito: String, binding: ActivityMainBinding){
-        binding.textView2.text = "${binding.textView2.text}$digito"
+        if(binding.textView2.text == "0" && digito != "."){
+            binding.textView2.text = "$digito"
+        }else{
+            binding.textView2.text = "${binding.textView2.text}$digito"
+        }
+
 
         if(operacion == sinOperacion){
             num1 = binding.textView2.text.toString().toDouble()
         }else{
             num2 = binding.textView2.text.toString().toDouble()
         }
+
     }
 
     private fun operacionPresionada(operacion: Int, binding: ActivityMainBinding){
         this.operacion = operacion
         binding.textView2.text = "0"
+    }
+
+    private fun limpiarCalculadora(binding: ActivityMainBinding){
+        num1 = 0.0
+        num2 = 0.0
+        binding.textView2.text = "0"
+        operacion = sinOperacion
+    }
+
+    private fun totalOperacion(binding: ActivityMainBinding){
+        val resultado = when(operacion){
+            sumar -> num1+num2
+            resta -> num1-num2
+            mult -> num1*num2
+            divid -> num1/num2
+            else -> 0
+        }
+        binding.textView2.text = resultado.toString()
     }
 
     companion object{
