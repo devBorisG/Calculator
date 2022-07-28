@@ -46,13 +46,11 @@ class MainActivity : AppCompatActivity() {
             binding.textView2.text = "${binding.textView2.text}$digito"
         }
 
-
         if(operacion == sinOperacion){
             num1 = binding.textView2.text.toString().toDouble()
         }else{
             num2 = binding.textView2.text.toString().toDouble()
         }
-
     }
 
     private fun operacionPresionada(operacion: Int, binding: ActivityMainBinding){
@@ -75,7 +73,8 @@ class MainActivity : AppCompatActivity() {
             divid -> num1/num2
             else -> 0
         }
-        binding.textView2.text = resultado.toString()
+        num1 = resultado as Double
+        binding.textView2.text = if("$resultado".endsWith(".0")) { "$resultado".replace(".0","") } else { "%.2f".format(resultado) }
     }
 
     companion object{
