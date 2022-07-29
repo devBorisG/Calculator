@@ -1,6 +1,7 @@
 package com.example.calculator
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.calculator.databinding.ActivityMainBinding
@@ -36,6 +37,10 @@ class MainActivity : AppCompatActivity() {
         binding.limpiar.setOnClickListener { limpiarCalculadora(binding) }
 
         binding.signoIgual.setOnClickListener { totalOperacion(binding) }
+
+
+        val botonhistorial = Unit
+        botonhistorial.setOnClickListener{ startActivity(Intent(this, historial::class.java))}
     }
 
     @SuppressLint("SetTextI18n")
