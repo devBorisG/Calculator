@@ -11,10 +11,11 @@ class MainActivity : AppCompatActivity() {
     private var num2: Double = 0.0
     private var operacion: Int = 0
 
+    private lateinit var binding:ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        /*Mejor forma de cargar una vista usando BINDING (modificado en build.gradle(Module: app))*/
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.numero0.setOnClickListener{numeroPresionado("0",binding)}
@@ -39,8 +40,7 @@ class MainActivity : AppCompatActivity() {
         binding.signoIgual.setOnClickListener { totalOperacion(binding) }
 
 
-        val botonhistorial = Unit
-        botonhistorial.setOnClickListener{ startActivity(Intent(this, historial::class.java))}
+
     }
 
     @SuppressLint("SetTextI18n")
@@ -80,6 +80,26 @@ class MainActivity : AppCompatActivity() {
         }
         num1 = resultado as Double
         binding.textView2.text = if("$resultado".endsWith(".0")) { "$resultado".replace(".0","") } else { "%.2f".format(resultado) }
+
+        binding.botonhistorial.setOnClickListener{
+            startActivity(Intent(this,HistoricalActivity::class.java))
+            val intent: Intent =Intent(this,HistoricalActivity::class.java)
+
+            var arreglo:Array<String> = Array(5,{i -> "no hay historial"})
+            arreglo.set(0,resultado.toString())
+            arreglo.set(1,resultado.toString())
+            arreglo.set(2,resultado.toString())
+            arreglo.set(3,resultado.toString())
+            arreglo.set(4,resultado.toString())
+
+
+            intent .putExtra("direccion", arreglo[0])
+            intent .putExtra("direccion2", arreglo[1])
+            intent .putExtra("direccion3", arreglo[2])
+            intent .putExtra("direccion4", arreglo[3])
+            intent .putExtra("direccion5", arreglo[4])
+
+            startActivity(intent)}
     }
 
     companion object{
