@@ -81,7 +81,8 @@ class MainActivity : AppCompatActivity() {
         num1 = resultado as Double
         binding.textView2.text = if("$resultado".endsWith(".0")) { "$resultado".replace(".0","") } else { "%.2f".format(resultado) }
 
-        binding.botonhistorial.setOnClickListener{
+
+         binding.botonhistorial.setOnClickListener{
             startActivity(Intent(this,HistoricalActivity::class.java))
             val intent: Intent =Intent(this,HistoricalActivity::class.java)
 
@@ -91,6 +92,7 @@ class MainActivity : AppCompatActivity() {
             arreglo.set(2,resultado.toString())
             arreglo.set(3,resultado.toString())
             arreglo.set(4,resultado.toString())
+
 
 
             intent .putExtra("direccion", arreglo[0])
